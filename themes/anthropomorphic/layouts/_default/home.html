@@ -1,3 +1,4 @@
+
 {{- define "main" }}
 {{- partial "main.html" . }}
 <hr>
@@ -19,7 +20,8 @@
   </article>
   {{- end }}
 </div>
-<div style="text-align: right;">
+<div style="text-align: right">
   <a href="/news">Read more Recent News</a>
 </div>
+{{- partial "search.html" }}
 {{- end -}}
